@@ -42,6 +42,7 @@ public class Paquete {
         this.costoTotal = sumaCostos;
         this.precioFinal = sumaCostos + recargo;
     }
+    
 
     
 
@@ -100,4 +101,5 @@ public class Paquete {
     public void setPrecioFinal(double precioFinal) {
         this.precioFinal = precioFinal;
     }
+    
 }

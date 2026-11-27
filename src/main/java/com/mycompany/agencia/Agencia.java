@@ -3,14 +3,15 @@
  */
 
 package com.mycompany.agencia;
-
+import com.mycompany.agencia.vista.VistaPrincipal;
 /**
  *
  * @author caren
  */
 public class Agencia {
-
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        java.awt.EventQueue.invokeLater(() -> {
+            new VistaPrincipal().setVisible(true);
+        });
     }
 }
